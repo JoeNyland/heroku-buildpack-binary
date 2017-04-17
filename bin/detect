@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# bin/detect <build-dir>
+
+set -e
+
+BUILD_DIR=$1
+
+if [[ -d "$BUILD_DIR/bin" ]]
+then
+    echo "Binary"
+    exit 0
+else
+    exit 1
+fi

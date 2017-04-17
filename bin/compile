@@ -1,0 +1,6 @@
+#!/bin/bash
+# usage: bin/compile <build-dir> <cache-dir>
+
+set -e
+
+echo "-----> Nothing to do."
