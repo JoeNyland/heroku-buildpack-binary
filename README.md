@@ -19,7 +19,7 @@ fail to detect that this is a binary app.
   ```
   cat >> Procfile <<EOF
   ## Web server
-  ## Note: You must bind the web server to $PORT which is provided by Heroku!
+  ## Note: You must bind the web server to \$PORT which is provided by Heroku!
   # web: bin/binary-name --add --additional --parameters -vv --port $PORT
 
   ## Normal worker
